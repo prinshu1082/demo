@@ -11,7 +11,7 @@ const App = () => {
 
   const [switchButton, setSwitchButton] = useState(true);
   const [detail, setDetail] = useState();
-  const [listItem,setListItem]=useState();
+  const [listItem, setListItem] = useState();
 
   let buttonValue = "Switch to Anime";
 
@@ -38,7 +38,7 @@ const App = () => {
 
   return (
     <div>
-      <h1 className={classes.App}>Heading 1</h1>
+      <h1 className={classes.App}>Anime and Books</h1>
       <button className={classes.Button} onClick={switchHandle}>{buttonValue}</button>
       {list}
       {detail}
