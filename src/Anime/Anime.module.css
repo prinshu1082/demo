@@ -1,0 +1,9 @@
+.Animes{
+    width:30%;
+    border:2px black solid;
+    margin-bottom :10px;
+}
+
+.Animes li{
+    border:1px black solid;
+}
