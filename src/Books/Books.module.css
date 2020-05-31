@@ -1,9 +1,9 @@
 .Books{
-    width:30%;
-    border:2px black solid;
-    margin-bottom :10px;
-}
-
-.Books li{
-    border:1px black solid;
+    width: 35%;
+    float: left;
+    padding: 20px;
+    border: 2px solid;
+    margin-left: 20px;
+    margin-right: 20px;
+    height:208px;
 }

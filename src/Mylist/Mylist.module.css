@@ -1,5 +1,7 @@
 .Mylist{
+    clear: both;
     width:40%;
-    margin:5px auto;
+    margin: auto;
     border:2px black solid;
+    
 }

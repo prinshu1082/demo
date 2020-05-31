@@ -1,4 +1,10 @@
 .ItemDetails{
-    width:50%;
-    border:2px black solid;
+    width: 45%;
+  float: left;
+  padding: 20px;
+  border: 2px solid;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  height: 208px;
 }

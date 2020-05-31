@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div>
       <h1 className={classes.App}>Heading 1</h1>
-      <button onClick={switchHandle}>{buttonValue}</button>
+      <button className={classes.Button} onClick={switchHandle}>{buttonValue}</button>
       {list}
       {detail}
       {listItem}
@@ -49,11 +49,3 @@ const App = () => {
 }
 
 export default App;
-
-//Switch button on Top and middle of component 
-//Component on left side 
-//Description Component on right side with same height as other component
-//in description component header in middle
-// In Description compoenent Add button in botton middle
-//My list component below these two component in middle
-//Mylist header in middle
